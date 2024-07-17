@@ -1,0 +1,360 @@
+/* navbar start    */
+.logo-name h3
+{
+    color: #FD6F00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    margin:40px 60px;
+}
+
+.sitenav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.nav-button
+{
+    background-color: #FD6F00;
+    color: aliceblue;
+    padding: 5px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* main body start */
+
+.intro h5
+{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.intro-subclass
+{
+    display: flex;
+
+    gap: 10px;
+   
+font-size: 100%;
+
+}
+
+/* button*/
+
+.intro-button 
+{
+    display:inline-flex;
+    align-items: center;
+    background-color: #2b2828;
+    border-radius: 50px; /* Rounded border for the container */
+    padding: 5px;
+    border: 2px solid white;
+}
+
+button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 08px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-button
+{
+    background-color: #FD6F00;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.hire-me-button 
+{
+    background-color: #282727;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+button:hover 
+{
+    opacity: 0.8;
+}
+
+/* main body start*/
+.main-body
+{
+    display: flex;
+    justify-content: space-between;
+} 
+.another-intro h2
+{
+    font-size: x-large;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}  
+/*main body end*/
+
+.main-body-end
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 120px;
+}
+
+/* experience section */
+
+
+/*experience-left*/
+
+.experience-stat
+{
+ background: linear-gradient( #2a120f,#1e1422);
+  
+}
+
+.experience-left
+{
+    justify-content: center;
+    margin: 20px,50px;
+    padding: 20px 100px;
+
+}
+/*experience-right*/
+
+.upper-side
+{
+    display: flex;
+    gap: 20px;
+    padding: 0px,10px;
+    margin-right: 100px;
+}
+
+.upper-side P
+{
+    font-size: x-large;
+}
+ .experience-right
+{
+    border-bottom: 1px solid white;
+    display: inline-block;
+    margin: 0px, 30px;
+ 
+}
+
+.upper-side
+{
+    border-bottom: 0.5px solid white;
+}
+
+
+ /* awards section */
+ .awards
+ {
+    text-align: center;   
+ }
+
+ .awards h1
+ { 
+    font-size: xx-large;
+    font-weight: bolder;
+    
+
+ }
+
+
+ /*awards-des*/
+ .awards-left
+ {
+ 
+   padding: 10px 60px;
+   
+ }
+ .awards-right
+ {
+    padding-right: 20px;
+ }
+
+ .awards-des
+ {
+background-color:#000000;
+ display: inline-flex;
+justify-content: space-around;
+ margin: 50px 200px;
+}
+/* my-portfolio start*/
+.my-portfolio
+{
+    text-align: center;
+}
+.my-portfolio h2
+{
+    font-size: 30px;
+   
+
+}
+/* portfolio buttons*/
+.button-ui
+{
+    background-color: #000000;
+    color: aliceblue;
+}
+.button-ui2
+{
+    background-color: #FD6F00;
+    color: aliceblue;
+}
+.portfolio-buttons
+{
+    margin: 20px 0px;
+    padding: 2px 10px;
+    
+}
+    
+.button1
+{
+ text-align: center;
+ margin: 10px 0;
+}
+/*portfolio-des*/
+.case-study h1
+{
+        font-size: 40px;
+}
+.case-study h5
+{
+        font-size: 25px;
+}
+.case-study p
+{
+        font-size: 15px;
+}
+
+.ux-case-study1
+{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+}
+
+.contact p
+{
+    font-style: italic;
+    
+} 
+/*contact start*/
+.contact
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+.any-projects
+{
+    background-color: #4a321f;
+    
+    margin: 50px 200px;
+    padding: 40px 100px;
+}
+.any-projects-2{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+.submit-button
+{
+    background-color: #FD6F00;
+    color: aliceblue;
+    
+padding: 5px 5px;
+}
+.part2 
+{
+    border-bottom: 1px solid white;
+    
+}
+.part3 
+{
+    border-bottom: 1px solid white;
+    
+}
+
+.part4 
+{
+    border-bottom: 1px solid white;
+    
+}
+/*footer section*/
+.footer
+{
+    background-color: #000000;
+    align-items: center;  
+   
+}
+
+.footer h1 
+{
+    color: #FD6F00;
+    font-size: 35px;
+    padding: 20px 700px;
+
+}
+.final
+{
+    display: flex;
+    align-items: center;
+    padding: 5px 500px;
+    gap: 15px;
+}
+.social-icons
+{
+    align-items: center;
+    padding: 5px 710px;
+    gap: 25px;
+    color: #FD6F00;
+    display: inline-block;
+
+}
+
+/*ending*/
+.ending{
+    align-items: center;
+    padding: 5px 660px;
+    line-height: 24px;
+}
+
+
+
+   
+    
+ 
+ 
+

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background-color: #5D5D5D;
+    --background-sec-color: #000000;
+    --font-primary-color: #FEFFFF;
+    --font-sec-color: #FD6F00;    
+}
+body{
+    background-color: var(--background-color);
+    color: var(--font-primary-color);
+}
+.header-container{
+    margin: 30px 60px;
+}
+.main-body{
+    margin: 30px 120px;
+}
+
+.experience-stat{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

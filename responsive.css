@@ -1,0 +1,140 @@
+@media only screen and (min-width: 200px) and (max-width:576px)
+{
+    
+    .container{
+        flex-direction: column;
+        margin: 5px 260px;
+        align-items: center;
+    }
+
+    .sitenav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-body{
+        margin: 0px 70px;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+    .another-intro
+    {
+        align-items: center;
+        margin: 0px 150px;
+    }
+    .another-intro p{
+        display: flex;
+        align-items: center;
+
+    }
+
+
+.rating h1
+{
+    padding: 0px 30px;
+}
+.rating h3
+{
+    padding: 0px 30px;
+}
+
+
+   
+.main-body-end{
+
+        
+        margin: 0px 20px;
+        gap:15px;
+        flex-direction: column;
+    }
+  
+
+    .rating{
+        
+        align-self: center;
+    }
+    .rating>p{
+        margin-left: 30px;
+    }
+
+    .experience-stat{
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .experience-right{
+        padding: 0px 65px;
+        margin-left: 30px;
+        align-items: center;
+    }
+    .intro-button{
+        align-items: center;
+       margin-left: 50px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    .awards
+    {
+        padding-right:10px;
+    }
+    .des-complete
+    {
+        width: 120%;
+        margin: auto;
+        text-align: center;
+       
+    }
+    .button1{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
+    .ux-case-study1{
+        margin-right: 900px;
+        flex-direction: column;
+    }
+
+    .contact
+    {
+        margin: 0px 50px;
+        align-items: center;
+    }
+
+
+    .any-projects
+    {
+        height: fit-content;
+        width: fit-content;
+        margin-right: 50px;
+
+    }
+    .any-projects-2
+    {
+        flex-direction: column;
+    }
+
+    .footer
+    {
+        height: fit-content;
+        width: fit-content;
+        margin: 0px 200px;
+        align-items:center;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+
+    .ending
+    {
+        align-items: center;
+        display: flex;
+        margin-right: 50px;
+    }
+
+
+};
+
